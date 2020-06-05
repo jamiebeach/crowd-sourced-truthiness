@@ -14,12 +14,13 @@ A concept of how truthiness can be crowd sourced with an incentive mechanism for
 # Proposed Solution
 5. Taking a crowd sourcing approach, despite the complicaions, may be one of the few viable approaches avaialble.
 6. This concept uses a voting mechanism where truthiness contributors vote whether or not a statement is true
-7. In order to mitigate the risk of contributors having non-aligned motivations, a money incentive is used.
-8. Each voter places a bet on their vote of a statement being true or false.
-9. Upon some voting threshold, all the voters who voted with the majority are then paid out the total sum of the bets, distributed evenly to the voters in alignment to how much they initially bet.
-10. During voting, contributors are able to change their vote, but do not have visibility into how the votes are distributed.
-11. During voting, contributors may chose to influence the vote by presenting facts or arguments and debate others who have done the same.
-12. Votes would be cast into a smart contract on a blockchain in such a way that the visibility of voting on the truthiness of a statement is not possible until some critical threshold is reached
-13. Each vote cast has some value associated to it in the vote's transaction
-14. Upon critical threshold and payout, the smart contract distributes the total sum of the transactions to the voters of the majority
-15. The rating is then embeded in the blockchain ledger and available via API for apps to consume
+7. Each voter goes through some sort of verification process to ensure they are a person and can only cast one vote per statement
+8. In order to mitigate the risk of contributors having non-aligned motivations, a money incentive is used.
+9. Each voter places a bet on their vote of a statement being true or false.
+10. Upon some voting threshold, all the voters who voted with the majority are then paid out the total sum of the bets, distributed evenly to the voters in alignment to how much they initially bet.
+11. During voting, contributors are able to change their vote, but do not have visibility into how the votes are distributed.
+12. During voting, contributors may chose to influence the vote by presenting facts or arguments and debate others who have done the same.
+13. Votes would be cast into a smart contract on a blockchain in such a way that the visibility of voting on the truthiness of a statement is not possible until some critical threshold is reached
+14. Each vote cast has some value associated to it in the vote's transaction
+15. Upon critical threshold and payout, the smart contract distributes the total sum of the transactions to the voters of the majority
+16. The rating is then embeded in the blockchain ledger and available via API for apps to consume
